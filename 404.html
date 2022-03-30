@@ -27,7 +27,7 @@ function getUrlVar(){
 var result = getUrlVar();
 
 
- var dataURL = 'https://accounting.masonov.space/instag/conf.php?user='+ (var paramsString = document.location.pathname) ;
+ var dataURL = 'https://accounting.masonov.space/instag/conf.php?user='+ getUrlVar;
  var App = new Vue({
   el: '#an',
   data: {
